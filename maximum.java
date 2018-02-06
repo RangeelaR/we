@@ -1,0 +1,68 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @RangeelaR
+
+0
+0
+
+    0
+
+RangeelaR/we
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+we/sort.java
+1feaced 4 days ago
+@RangeelaR RangeelaR Create sort.java
+38 lines (33 sloc) 938 Bytes
+import java.util.Scanner;
+
+public class maximum{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n, temp;
+	        Scanner s = new Scanner(System.in);
+	        System.out.print("Enter no. of elements you want in array:");
+	        n = s.nextInt();
+	        int a[] = new int[n];
+	        System.out.println("Enter all the elements:");
+	        for (int i = 0; i < n; i++) 
+	        {
+	            a[i] = s.nextInt();
+	        }
+	        for (int i = 0; i < n; i++) 
+	        {
+	            for (int j = i + 1; j < n; j++) 
+	            {
+	                if (a[i] < a[j]) 
+	                {
+	                    temp = a[i];
+	                    a[i] = a[j];
+	                    a[j] = temp;
+	                }
+	            }
+	        }
+	        System.out.print("maximum number formed:");
+	        for (int i = 0; i <= n - 1; i++) 
+	        {
+	            System.out.print(a[i] + " ");
+	        }
+
+	}
+
+}
+
+    
+
