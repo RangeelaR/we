@@ -23,7 +23,7 @@ public class max {
 				a[0]=a[i];
 			}
 		}
-		System.out.println("element"+a[0]);
+		System.out.print("element"+a[0]);
 		
 		
 
