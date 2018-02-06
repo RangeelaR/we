@@ -1,31 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @RangeelaR
-
-0
-0
-
-    0
-
-RangeelaR/we
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-Settings
-we/sort.java
-1feaced 4 days ago
-@RangeelaR RangeelaR Create sort.java
-38 lines (33 sloc) 938 Bytes
 import java.util.Scanner;
 
 public class maximum{
